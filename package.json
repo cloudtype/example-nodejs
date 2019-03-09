@@ -1,0 +1,30 @@
+{
+  "name": "example-nodejs",
+  "version": "1.0.0",
+  "private": true,
+  "description": "nodejs + mongodb example",
+  "main": "lib/index.js",
+  "scripts": {
+    "start": "forever lib",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "cloudtype",
+  "license": "MIT",
+  "homepage": "https://github.com/cloudtype/example-nodejs#readme",
+  "bugs": {
+    "url": "https://github.com/cloudtype/example-nodejs/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cloudtype/example-nodejs.git"
+  },
+  "dependencies": {
+    "express": "^4.16.4",
+    "forever": "^0.15.3",
+    "mongodb": "^3.1.13",
+    "uuid": "^3.3.2"
+  },
+  "directories": {
+    "lib": "lib"
+  }
+}
