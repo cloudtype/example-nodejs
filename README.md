@@ -1,6 +1,5 @@
 # @cloudtype/example-nodejs
 
-
 ## 1. 사전준비
 
 ```sh
