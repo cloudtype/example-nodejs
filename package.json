@@ -5,7 +5,7 @@
   "description": "nodejs + mongodb example",
   "main": "lib/index.js",
   "scripts": {
-    "start": "forever lib",
+    "start": "node lib",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "cloudtype",
@@ -20,7 +20,6 @@
   },
   "dependencies": {
     "express": "^4.16.4",
-    "forever": "^0.15.3",
     "mongodb": "^3.1.13",
     "uuid": "^3.3.2"
   },
